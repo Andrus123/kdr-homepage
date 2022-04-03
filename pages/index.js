@@ -18,8 +18,11 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { FaEthereum } from 'react-icons/fa'
 import Image from 'next/image'
 import React from 'react'
+import Junior from '../public/images/junior.jpg'
+import Sophomore from '../public/images/sophomore.jpg'
 React.useLayoutEffect = React.useEffect
 
 const ProfileImage = chakra(Image, {
@@ -117,9 +120,9 @@ const Home = () => (
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            I love:
+            Focus:
           </Heading>
-          <Paragraph>Blockchain, Smart Contracts, Music, Films.</Paragraph>
+          <Paragraph>Blockchain, Smart Contracts, Finance.</Paragraph>
         </Section>
       </Section>
 
@@ -161,7 +164,42 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+          <ListItem>
+            <Link href="https://opensea.io/Andruss" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<FaEthereum />}
+              >
+                0xac05...A957
+              </Button>
+            </Link>
+          </ListItem>
         </List>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            href="https://opensea.io/assets/matic/0x1ed25648382c2e6da067313e5dacb4f138bc8b33/2/"
+            title="Junior"
+            thumbnail={Junior}
+          >
+            Junior Batch Developer NFT
+          </GridItem>
+          <GridItem
+            href="https://opensea.io/assets/matic/0x1ed25648382c2e6da067313e5dacb4f138bc8b33/1/"
+            title="Sophomore"
+            thumbnail={Sophomore}
+          >
+            Sophomore Batch Developer NFT
+          </GridItem>
+        </SimpleGrid>
+
+        <Box align="center" my={4}>
+          <NextLink href="/posts" scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              Popular posts
+            </Button>
+          </NextLink>
+        </Box>
       </Section>
     </Container>
   </Layout>
