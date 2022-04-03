@@ -152,7 +152,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://linkedin.com/andres-aquin" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/andr%C3%A9s-aquin/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
