@@ -39,7 +39,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a full-stack developer based in Bolivia
+        Hello, I&apos;m Smart Contract developer based in Bolivia
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -81,11 +81,9 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Andrés is a software developer and a Smart Contract Developer.
+          Andrés is a Software developer and a Smart Contract Developer. Working
+          with protocols DEFI on Ethereum, Avalanche and Solana
         </Paragraph>
-        <NextLink href="#">
-          <Link>Ricochet</Link>
-        </NextLink>
         <Box align="center" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
