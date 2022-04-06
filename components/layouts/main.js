@@ -18,7 +18,7 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Andy's site" />
         <meta name="author" content="Andrés Aquin" />
         <meta name="author" content="andy" />
-        <meta name="theme-color" content="#ffffffc" />
+        <meta name="theme-color" content="#202023" />
         <title>Andrés Aquin - Homepage</title>
       </Head>
 
