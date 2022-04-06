@@ -9,6 +9,7 @@ import thumNft from '../public/images/ipfs-nfts.png'
 import thumDao from '../public/images/dao.png'
 import thumVRF from '../public/images/lottery.png'
 import thumSwap from '../public/images/swap.png'
+import thumMarket from '../public/images/nftmarketplace.png'
 
 const Works = () => {
   return (
@@ -51,6 +52,16 @@ const Works = () => {
           <Section>
             <WorkGridItem id="avaswap" title="AvaSwap" thumbnail={thumSwap}>
               A decentralized exchange on Avalanche
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="nftmarketplace"
+              title="Nft Marketplace Mobile"
+              thumbnail={thumMarket}
+            >
+              A React Native mobile UI for a NFT marketplace, with a showcase
+              page deployed on IPFS
             </WorkGridItem>
           </Section>
         </SimpleGrid>
