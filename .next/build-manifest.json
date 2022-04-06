@@ -35,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
     ],
-    "/works/dao": [
+    "/works/nftmarketplace": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/dao.js"
+      "static/chunks/pages/works/nftmarketplace.js"
     ],
     "/works/ricochet": [
       "static/chunks/webpack.js",
