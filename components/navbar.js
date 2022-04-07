@@ -77,7 +77,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/andrus123"
+            href="https://github.com/andrus123/kdr-homepage"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -108,7 +108,10 @@ const Navbar = props => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
-                <MenuItem as={Link} href="#">
+                <MenuItem
+                  as={Link}
+                  href="https://github.com/andrus123/kdr-homepage"
+                >
                   View Source
                 </MenuItem>
               </MenuList>
