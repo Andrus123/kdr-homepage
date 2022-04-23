@@ -23,6 +23,7 @@ import Image from 'next/image'
 import React from 'react'
 import Junior from '../public/images/junior.jpg'
 import Sophomore from '../public/images/sophomore.jpg'
+import Freshman from '../public/images/freshman.jpg'
 React.useLayoutEffect = React.useEffect
 
 const ProfileImage = chakra(Image, {
@@ -191,6 +192,13 @@ const Home = () => (
             thumbnail={Sophomore}
           >
             Sophomore Batch Developer NFT
+          </GridItem>
+          <GridItem
+            href="https://opensea.io/assets/matic/0x1ed25648382c2e6da067313e5dacb4f138bc8b33/0/"
+            title="Freshman"
+            thumbnail={Freshman}
+          >
+            Freshman Batch Developer NFT
           </GridItem>
         </SimpleGrid>
 
