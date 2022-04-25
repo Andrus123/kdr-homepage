@@ -17,8 +17,14 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import {
+  IoLogoTwitter,
+  IoLogoGithub,
+  IoLogoLinkedin,
+  IoMail
+} from 'react-icons/io5'
 import { FaEthereum } from 'react-icons/fa'
+import { SiGmail } from 'react-icons/si'
 import Image from 'next/image'
 import React from 'react'
 import Junior from '../public/images/junior.jpg'
@@ -130,6 +136,20 @@ const Home = () => (
           On the web
         </Heading>
         <List>
+          <ListItem>
+            <Link href="mailto:akaquin@umsa.bo" target="_blank">
+              <Button variant="ghost" colorScheme="teal" leftIcon={<SiGmail />}>
+                akaquin@umsa.bo
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="mailto:mr@andrus.tech" target="_blank">
+              <Button variant="ghost" colorScheme="teal" leftIcon={<IoMail />}>
+                mr@andrus.tech
+              </Button>
+            </Link>
+          </ListItem>
           <ListItem>
             <Link href="https://github.com/andrus123" target="_blank">
               <Button
