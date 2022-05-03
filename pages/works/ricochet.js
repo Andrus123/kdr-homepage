@@ -28,11 +28,7 @@ const Work = () => {
             <span>Rust, Solidity, NextJs, React Native</span>
           </ListItem>
           <ListItem>
-            <Meta>Blogpost</Meta>
-            <Link href="#">
-              How to build a Crosschain Protocol without lossing billions in the
-              way <ExternalLinkIcon mx="2px" />
-            </Link>
+            <Meta>On Development</Meta>
           </ListItem>
         </List>
 
