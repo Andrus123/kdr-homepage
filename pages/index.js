@@ -46,7 +46,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m Smart Contract developer based in Bolivia
+        Hello, I&apos;m a Smart Contract / Web developer based in Bolivia
       </Box>
 
       <Box display={{ md: 'flex' }}>
