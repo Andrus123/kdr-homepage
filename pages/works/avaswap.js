@@ -33,10 +33,6 @@ const Work = () => {
               Building an AMM for Avalanche <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
-          <ListItem>
-            <Meta>Github</Meta>
-            <Link href=""></Link>
-          </ListItem>
         </List>
 
         <WorkImage src="/images/swap.png" alt="swap" />

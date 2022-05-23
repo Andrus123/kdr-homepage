@@ -27,6 +27,16 @@ const Work = () => {
             <Meta>Stack</Meta>
             <span>React Native, Expo SDK, Fleek, IPFS</span>
           </ListItem>
+          <ListItem>
+            <Meta>Github</Meta>
+            <Link
+              href="https://github.com/Andrus123/showcase-mobile-dapp"
+              target="_blank"
+            >
+              https://github.com/Andrus123/showcase-mobile-dapp{' '}
+              <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
         </List>
 
         <WorkImage src="/images/nftmarketplace.png" alt="mobileappnft" />

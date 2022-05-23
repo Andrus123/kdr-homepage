@@ -31,10 +31,13 @@ const Work = () => {
             </span>
           </ListItem>
           <ListItem>
-            <Meta>Blogpost</Meta>
-            <Link href="#">
-              How to build a Crosschain Protocol without lossing billions in the
-              way <ExternalLinkIcon mx="2px" />
+            <Meta>Github</Meta>
+            <Link
+              href="https://github.com/Andrus123/chainlinkVRF_LotteryGame"
+              target="_blank"
+            >
+              https://github.com/Andrus123/chainlinkVRF_LotteryGame{' '}
+              <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
         </List>
