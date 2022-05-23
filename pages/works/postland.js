@@ -15,8 +15,8 @@ const Work = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://hauser.vercel.app/" target="_blank">
-              https://hauser.vercel.app/ <ExternalLinkIcon mx="2px" />
+            <Link href="https://postland.vercel.app/" target="_blank">
+              https://postland.vercel.app/ <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -29,7 +29,7 @@ const Work = () => {
           </ListItem>
         </List>
 
-        <WorkImage src="/images/hauser.png" alt="realestateapp" />
+        <WorkImage src="/images/postland.png" alt="realestateapp" />
       </Container>
     </Layout>
   )
