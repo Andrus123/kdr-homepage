@@ -35,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
     ],
-    "/works/hauser": [
+    "/works/postland": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/hauser.js"
+      "static/chunks/pages/works/postland.js"
     ]
   },
   "ampFirstPages": []

@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumRico from '../public/images/ricochet.png'
+//import thumRico from '../public/images/ricochet.png'
 import thumWhite from '../public/images/whitelist.png'
 import thumNft from '../public/images/ipfs-nfts.png'
 import thumDao from '../public/images/dao.png'
@@ -25,10 +25,20 @@ const Works = () => {
               A Real-Estate Web App fetching an API from Rapid-API's
             </WorkGridItem>
           </Section>
-          <Section>
+          {/* <Section>
             <WorkGridItem id="ricochet" title="Ricochet" thumbnail={thumRico}>
               A smart contract based decentralized exchange platform with
               minimun slipage, cross-chain leverage + swaps
+              </WorkGridItem>
+            </Section> */}
+          <Section>
+            <WorkGridItem
+              id="nftmarketplace"
+              title="Nft Marketplace Mobile"
+              thumbnail={thumMarket}
+            >
+              A React Native mobile UI for a NFT marketplace, with a showcase
+              page deployed on IPFS
             </WorkGridItem>
           </Section>
           <Section>
@@ -58,16 +68,6 @@ const Works = () => {
           <Section>
             <WorkGridItem id="avaswap" title="AvaSwap" thumbnail={thumSwap}>
               A decentralized exchange on Avalanche
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem
-              id="nftmarketplace"
-              title="Nft Marketplace Mobile"
-              thumbnail={thumMarket}
-            >
-              A React Native mobile UI for a NFT marketplace, with a showcase
-              page deployed on IPFS
             </WorkGridItem>
           </Section>
         </SimpleGrid>
