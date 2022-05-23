@@ -30,9 +30,12 @@ const Work = () => {
           <ListItem>
             <Meta>Blogpost</Meta>
             <Link href="#">
-              How to build a Crosschain Protocol without lossing billions in the
-              way <ExternalLinkIcon mx="2px" />
+              Building an AMM for Avalanche <ExternalLinkIcon mx="2px" />
             </Link>
+          </ListItem>
+          <ListItem>
+            <Meta>Github</Meta>
+            <Link href=""></Link>
           </ListItem>
         </List>
 
