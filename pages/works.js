@@ -10,6 +10,7 @@ import thumDao from '../public/images/dao.png'
 import thumVRF from '../public/images/lottery.png'
 import thumSwap from '../public/images/swap.png'
 import thumMarket from '../public/images/nftmarketplace.png'
+import thumHaus from '../public/images/hauser.png'
 
 const Works = () => {
   return (
@@ -19,6 +20,11 @@ const Works = () => {
           Works
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem id="hauser" title="Hauser" thumbnail={thumHaus}>
+              A Real-Estate Web App fetching an API from Rapid-API's
+            </WorkGridItem>
+          </Section>
           <Section>
             <WorkGridItem id="ricochet" title="Ricochet" thumbnail={thumRico}>
               A smart contract based decentralized exchange platform with
