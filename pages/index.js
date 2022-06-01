@@ -46,7 +46,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a Smart Contract / Web developer based in Bolivia
+        Hello, I&apos;m a Software Developer based in Bolivia
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -54,7 +54,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Andrés Aquin
           </Heading>
-          <p>Smart Contract Developer</p>
+          <p>Software Developer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -88,7 +88,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Andrés is a Software developer and a Smart Contract Developer. Working
+          Andrés is a Software developer and Smart Contract Developer. Working
           with protocols DEFI on Ethereum, Avalanche and Solana
         </Paragraph>
         <Box align="center" my={4}>
