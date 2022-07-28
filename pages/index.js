@@ -88,8 +88,8 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Andrés is a Software developer and Smart Contract Developer. Working
-          with protocols DEFI on Ethereum, Avalanche and Solana
+          Andrés is a Commercial Engineer and a Computer Science student,
+          focused on Tech Sales and Software Development.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
