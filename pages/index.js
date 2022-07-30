@@ -137,9 +137,9 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="mailto:akaquin@umsa.bo" target="_blank">
+            <Link href="mailto:andykee37@gmail.com" target="_blank">
               <Button variant="ghost" colorScheme="teal" leftIcon={<SiGmail />}>
-                akaquin@umsa.bo
+                andykee37@gmail.com
               </Button>
             </Link>
           </ListItem>
