@@ -11,6 +11,7 @@ import thumVRF from '../public/images/lottery.png'
 import thumSwap from '../public/images/swap.png'
 import thumMarket from '../public/images/nftmarketplace.png'
 import thumPost from '../public/images/postland.png'
+import thumForo from '../public/images/forochallenge.png'
 
 const Works = () => {
   return (
@@ -20,6 +21,11 @@ const Works = () => {
           Works
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem id="foro" title="foroAlura" thumbnail={thumForo}>
+              A Rest API for a forum, with auth0, MySQL, and Hibernate
+            </WorkGridItem>
+          </Section>
           <Section>
             <WorkGridItem id="postland" title="Postland" thumbnail={thumPost}>
               A Real-Estate Web App fetching an API from Rapid-API's

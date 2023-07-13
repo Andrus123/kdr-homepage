@@ -89,7 +89,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Andrés is a Commercial Engineer and a Computer Science student,
-          focused on Tech Sales and Software Development.
+          focused on Business and Software Development.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
