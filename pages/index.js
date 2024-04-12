@@ -76,8 +76,8 @@ const Home = () => (
               src="/images/andres.jpg"
               alt="Profile image"
               borderRadius="full"
-              width="110%"
-              height="150%"
+              width="120"
+              height="150"
             />
           </Box>
         </Box>

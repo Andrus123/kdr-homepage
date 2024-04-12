@@ -23,21 +23,21 @@ const LogoBox = styled.span`
 const Logo = () => {
   const cubeImg = `/images/cube${useColorModeValue('', '-dark')}.png`
   return (
-    <Link href="/" scroll={false}>
-      <a>
-        <LogoBox>
-          <Image src={cubeImg} alt="cube" width={20} height={20} />
-          <Text
-            color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-            fontFamily="Bakbak One, cursive"
-            ml={3}
-          >
-            Andrus
-          </Text>
-        </LogoBox>
-      </a>
-    </Link>
-  )
+    (<Link href="/" scroll={false}>
+
+      <LogoBox>
+        <Image src={cubeImg} alt="cube" width={20} height={20} />
+        <Text
+          color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+          fontFamily="Bakbak One, cursive"
+          ml={3}
+        >
+          Andrus
+        </Text>
+      </LogoBox>
+
+    </Link>)
+  );
 }
 
 export default Logo
