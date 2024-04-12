@@ -12,20 +12,20 @@
   "author": "Andrés Aquin",
   "license": "MIT",
   "dependencies": {
-    "@chakra-ui/icons": "^1.1.5",
-    "@chakra-ui/react": "^1.8.3",
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
-    "framer-motion": "^6.2.6",
-    "next": "^14.2.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
-    "three": "^0.137.5"
+    "framer-motion": "^11.0.28",
+    "next": "^14.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "three": "^0.163.0"
   },
   "devDependencies": {
-    "eslint": "^8.9.0",
-    "eslint-config-next": "^12.0.10",
-    "prettier": "^2.5.1"
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^14.2.0",
+    "prettier": "^3.2.5"
   }
 }
